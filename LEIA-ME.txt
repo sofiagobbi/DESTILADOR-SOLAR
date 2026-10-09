@@ -1,0 +1,9 @@
+SITE DESTILADOR SOLAR — VERSÃO CORRIGIDA
+
+Abra index.html no navegador.
+
+Páginas: index.html, projeto.html, funcionamento.html, prototipo.html, agua.html, equipe.html.
+Estilos: assets/style.css. Interações: assets/script.js.
+Fotos e ilustrações: assets/images/.
+
+

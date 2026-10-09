@@ -1,0 +1,10 @@
+GALERIA DO PROTÓTIPO
+
+1. Abra prototipo.html e procure por GALERIA DO GRUPO.
+2. Para uma foto, substitua <div class="gallery-placeholder"> ... </div> por <img src="assets/images/foto-1.jpg" alt="Descrição da foto" loading="lazy">.
+3. Coloque foto-1.jpg na pasta assets/images.
+4. Para vídeo, substitua o placeholder por <video controls preload="metadata" playsinline><source src="assets/videos/teste.mp4" type="video/mp4"></video>.
+5. Coloque teste.mp4 em assets/videos.
+6. Edite o texto dentro de <figcaption> para mudar a legenda.
+7. Duplique um bloco <figure class="gallery-card"> ... </figure> para criar mais espaços.
+

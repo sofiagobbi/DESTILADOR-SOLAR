@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="#071b29" name="theme-color"/>
+  <meta content="Projeto escolar de Qu&iacute;mica: destilador solar, da pesquisa ao prot&oacute;tipo." name="description"/>
+  <title>
+   Como funciona a destila&ccedil;&atilde;o solar | Destilador Solar
+  </title>
+  <link href="assets/style.css" rel="stylesheet"/>
+  <script defer="" src="assets/script.js">
+  </script>
+ </head>
+ <body>
+  <div class="progress" id="progress">
+  </div>
+
+  <header class="site-header">
+   <div class="shell nav">
+    <a class="brand" href="index.html">
+     <span class="brand-icon">
+      ◉
+     </span>
+     <span>
+      DESTILADOR
+      <span class="brand-light">
+       /SOLAR
+      </span>
+      <small>
+       PROJETO DE QU&Iacute;MICA &middot; 2A
+      </small>
+     </span>
+    </a>
+    <button aria-expanded="false" aria-label="Abrir menu" class="menu-toggle" id="menuToggle">
+     ☰
+    </button>
+
+    <nav aria-label="Menu principal" class="nav-links" id="navLinks">
+     <a class="" href="index.html">
+      In&iacute;cio
+     </a>
+     <a class="" href="projeto.html">
+      O projeto
+     </a>
+     <a class="active" href="funcionamento.html">
+      Como funciona
+     </a>
+     <a class="" href="prototipo.html">
+      Prot&oacute;tipo
+     </a>
+     <a class="" href="agua.html">
+      &Aacute;gua pot&aacute;vel
+     </a>
+     <a class="" href="equipe.html">
+      Equipe
+     </a>
+    </nav>
+   </div>
+  </header>
+
+  <main>
+
+   <section class="page-intro shell">
+    <div class="eyebrow">
+     <span class="eyebrow-line">
+     </span>
+     02 / O PROCESSO
+    </div>
+    <h1>
+     Como funciona a destila&ccedil;&atilde;o solar
+    </h1>
+    <p>
+     Uma vers&atilde;o em pequena escala do ciclo da &aacute;gua: o Sol aquece, a &aacute;gua evapora, condensa e pode ser recolhida.
+    </p>
+   </section>
+
+   <section class="shell section">
+    <div class="section-head">
+     <span class="kicker">
+      SIMULA&Ccedil;&Atilde;O INTERATIVA
+     </span>
+     <h2>
+      Acompanhe a transforma&ccedil;&atilde;o
+     </h2>
+     <p>
+      Clique em cada etapa para ver o que acontece dentro de um destilador solar.
+     </p>
+    </div>
+     <div class="lab-simulator" id="labSimulator" data-phase="0">
+       <div class="lab-stage">
+         <div class="lab-stage-top"><span class="lab-live"><span></span> LABORATÓRIO VIRTUAL</span><span>MODELO DIDÁTICO · SEM ESCALA</span></div>
+         <svg class="lab-diagram" viewBox="0 0 760 490" role="img" aria-label="Ilustração interativa do destilador com duas tampas transparentes, água, cobertura inclinada, tubo e recipiente coletor">
+           <defs>
+             <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b7efff" stop-opacity=".32"/><stop offset="1" stop-color="#b7efff" stop-opacity=".06"/></linearGradient>
+             <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#65dcf4"/><stop offset="1" stop-color="#087caa"/></linearGradient>
+             <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+             <marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="none" stroke="#80e5ff" stroke-width="1.6"/></marker>
+           </defs>
+           <g class="lab-sun"><circle cx="610" cy="80" r="37" fill="#ffd477" opacity=".22" filter="url(#glow)"/><circle cx="610" cy="80" r="23" fill="#ffce65"/><g stroke="#ffd67f" stroke-width="3" stroke-linecap="round"><path d="M610 40v-12 M610 120v12 M570 80h-12 M650 80h12 M581 51l-9-9 M639 109l9 9 M639 51l9-9 M581 109l-9 9"/></g></g>
+           <g class="lab-rays" stroke="#ffd67f" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"><path d="M580 120L498 218"/><path d="M621 126L570 227"/><path d="M552 105L459 174"/></g>
+           <ellipse cx="370" cy="415" rx="300" ry="25" fill="#000" opacity=".17"/>
+           <path d="M104 285 L529 238 L625 304 L200 361 Z" fill="#172c37" stroke="#557280" stroke-width="6"/>
+           <path class="lab-water" d="M132 283 L520 244 L587 292 L202 340 Z" fill="url(#water)" opacity=".8"/>
+           <path d="M102 285 L200 362 L200 384 L102 305 Z M200 362 L627 304 L627 325 L200 384 Z" fill="#1c4b60" stroke="#76b7c8" stroke-width="3"/>
+           <g class="lab-vapor" stroke="#80e5ff" stroke-width="3" stroke-linecap="round" fill="none"><path d="M252 287Q222 261 258 233Q290 210 265 185"/><path d="M359 270Q331 241 366 215Q389 196 372 172"/><path d="M464 265Q436 238 473 213Q491 195 480 176"/></g>
+           <path class="lab-roof" d="M94 213 L520 146 L638 247 L206 322 Z" fill="url(#glass)" stroke="#a4d9e6" stroke-width="6" stroke-linejoin="round"/>
+           <path d="M94 213L94 240L206 350L206 322 M206 322L638 247L638 272L206 350" fill="none" stroke="#78b5c6" stroke-width="5"/>
+           <path d="M120 220L516 158" stroke="#e7fbff" stroke-width="3" opacity=".6"/>
+           <g class="lab-drops" fill="#a3edff"><circle cx="274" cy="290" r="5"/><circle cx="327" cy="281" r="5"/><circle cx="385" cy="272" r="5"/><circle cx="452" cy="258" r="5"/><circle cx="520" cy="245" r="5"/></g>
+           <path d="M206 334 L155 372 L155 406 L112 427" stroke="#b8c6c9" stroke-width="19" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+           <path d="M206 334 L155 372 L155 406 L112 427" stroke="#6f8c96" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+           <path class="lab-flow" d="M207 335L155 372L155 406L112 427" stroke="#66e4ff" stroke-width="5" stroke-dasharray="10 14" stroke-linecap="round" fill="none"/>
+           <path d="M53 401L53 462Q53 475 67 475H178Q192 475 192 462V401" fill="#7bc9df" fill-opacity=".13" stroke="#b3dbe5" stroke-width="5"/>
+           <path class="lab-collected" d="M60 452Q125 446 185 452V464Q185 469 176 469H69Q60 469 60 463Z" fill="#62d9ef"/>
+           <g class="lab-mark lab-mark-heat"><circle cx="535" cy="193" r="7"/><path d="M543 193H584"/></g>
+           <g class="lab-mark lab-mark-vapor"><circle cx="365" cy="208" r="7"/><path d="M372 208H411"/></g>
+           <g class="lab-mark lab-mark-drops"><circle cx="458" cy="254" r="7"/><path d="M466 254H515"/></g>
+           <g class="lab-mark lab-mark-collect"><circle cx="125" cy="447" r="7"/><path d="M133 447H202"/></g>
+           <g font-family="Arial, sans-serif" font-size="13" fill="#c9e7ef"><text x="285" y="399">RESERVATÓRIO</text><text x="295" y="416" font-size="11" fill="#8eb8c5">água salgada</text><text x="285" y="127">TAMPA INCLINADA</text><text x="285" y="144" font-size="11" fill="#8eb8c5">superfície de condensação</text><text x="50" y="388" font-size="11">COLETA</text></g>
+         </svg>
+         <div class="lab-stage-bottom"><span><i class="lab-key-water"></i> Água</span><span><i class="lab-key-vapor"></i> Vapor</span><span><i class="lab-key-collect"></i> Água coletada</span></div>
+       </div>
+       <div class="lab-panel">
+         <div class="lab-panel-top"><span class="kicker">EXPERIMENTO INTERATIVO</span><span class="lab-count" id="simStatus">ETAPA 1 DE 5</span></div>
+         <div class="lab-step-number" id="labStepNumber">01 <span>/ 05</span></div>
+         <h3 id="simTitle">01. Entrada da água</h3>
+         <p id="simText">A água salgada é colocada em um recipiente raso, dentro do destilador.</p>
+         <div class="lab-step-list" id="simDots" aria-label="Selecionar etapa">
+           <button type="button" data-step="0" class="selected"><span>01</span> Preparação</button>
+           <button type="button" data-step="1"><span>02</span> Aquecimento</button>
+           <button type="button" data-step="2"><span>03</span> Evaporação</button>
+           <button type="button" data-step="3"><span>04</span> Condensação</button>
+           <button type="button" data-step="4"><span>05</span> Coleta</button>
+         </div>
+         <div class="lab-actions"><button type="button" class="btn primary" id="nextStep">Próxima etapa →</button><button type="button" class="lab-reset" id="restartStep" aria-label="Reiniciar simulação">↺ Reiniciar</button></div>
+       </div>
+     </div>
+   </section>
+
+   <section class="shell section">
+    <div class="section-head">
+     <span class="kicker">
+      ENTENDA CADA FASE
+     </span>
+     <h2>
+      O processo, passo a passo
+     </h2>
+    </div>
+    <div class="timeline">
+     <div>
+      <span>
+       01
+      </span>
+      <article>
+       <h3>
+        Entrada da &aacute;gua salgada
+       </h3>
+       <p>
+        A &aacute;gua &eacute; colocada em um recipiente raso.
+       </p>
+      </article>
+     </div>
+     <div>
+      <span>
+       02
+      </span>
+      <article>
+       <h3>
+        Aquecimento pelo Sol
+       </h3>
+       <p>
+        Uma superf&iacute;cie escura ajuda a absorver a radia&ccedil;&atilde;o solar e transform&aacute;-la em calor.
+       </p>
+      </article>
+     </div>
+     <div>
+      <span>
+       03
+      </span>
+      <article>
+       <h3>
+        Evapora&ccedil;&atilde;o
+       </h3>
+       <p>
+        Parte da &aacute;gua passa para o estado gasoso. O sal e grande parte dos materiais dissolvidos permanecem no recipiente.
+       </p>
+      </article>
+     </div>
+     <div>
+      <span>
+       04
+      </span>
+      <article>
+       <h3>
+        Condensa&ccedil;&atilde;o
+       </h3>
+       <p>
+        Ao tocar uma superf&iacute;cie mais fria e inclinada, o vapor forma gotinhas de &aacute;gua.
+       </p>
+      </article>
+     </div>
+     <div>
+      <span>
+       05
+      </span>
+      <article>
+       <h3>
+        Coleta
+       </h3>
+       <p>
+        As gotas escorrem at&eacute; uma canaleta ou tubo e s&atilde;o direcionadas a outro recipiente.
+       </p>
+      </article>
+     </div>
+    </div>
+    <div class="callout">
+     <strong>
+      Importante:
+     </strong>
+     &aacute;gua destilada n&atilde;o &eacute; automaticamente segura para beber. A qualidade depende da &aacute;gua de origem, dos materiais utilizados e de poss&iacute;veis contaminantes vol&aacute;teis. Nosso experimento demonstra a separa&ccedil;&atilde;o f&iacute;sica, n&atilde;o certifica potabilidade.
+    </div>
+   </section>
+  </main>
+
+  <footer>
+   <div class="shell footer-inner">
+    <div>
+     <strong>
+      DESTILADOR/SOLAR
+     </strong>
+     <p>
+      Qu&iacute;mica &middot; Turma 2A &middot; Professor Romuel
+     </p>
+    </div>
+    <span>
+     Projeto iniciado em 22.09.2026 <br> Projeto finalizado em 09.10.2026
+    </span>
+    <a href="index.html">
+     Voltar ao in&iacute;cio &uarr;
+    </a>
+   </div>
+  </footer>
+ </body>
+</html>

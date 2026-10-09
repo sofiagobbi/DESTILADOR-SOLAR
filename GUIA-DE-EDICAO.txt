@@ -1,0 +1,17 @@
+GUIA DE EDIÇÃO — DESTILADOR SOLAR
+
+1. Abra a pasta no VS Code.
+2. Para trocar textos, abra a página correspondente:
+   index.html — página inicial
+   projeto.html — introdução e planejamento
+   funcionamento.html — explicação e simulação
+   prototipo.html — montagem, foto, medidas e materiais
+   agua.html — potabilidade
+   equipe.html — integrantes e tarefas
+3. Para alterar cores, fontes, espaçamentos e aparência: assets/style.css
+4. Para alterar a interatividade e textos das etapas: assets/script.js
+5. Para substituir a foto: assets/images/prototipo-real.png
+6. Abra index.html no navegador para visualizar.
+
+Esta versão mantém o conteúdo, a estrutura, o design e o comportamento da versão 3.
+As mudanças nos arquivos do site são somente de espaçamento, quebras de linha e indentação.
